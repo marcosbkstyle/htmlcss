@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: #523B6E;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header{
+            background-color: white;
+            
+        }
+        article{
+           background-color: #cfcf4e49;
+        }
+       main > aside {
+            background-color: #523B6E;
+            font-weight: bold;
+            text-align: center;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: auto;
+        }
+        nav{
+            background-color: #9896394f ;
+            padding: 10px;
+            margin: 5px;
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 30px
+
+        }
+        footer{
+            background-color: #080808 ;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin: 0px;
+        }
+        #borda{
+            border: 20px solid black;
+            padding: 10px;
+            border-image-source: url(borda.png);
+            border-image-slice: 36;
+            border-image-repeat: repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a> <br>
+            <a href="#">link</a> <br>
+            <a href="#">link</a> <br>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+
+        </section>
+        <article>
+            <h2>Meu titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero error unde eius ex odit, sequi, dignissimos libero amet tenetur sunt, repellat beatae. Quasi obcaecati et, aspernatur exercitationem illum hic?</p>
+        </article>
+        <aside>
+            Artigo escrito por marcos
+        </aside>
+        <h1 id="borda">
+            Borda
+        </h1>
+
+    </main>
+    <footer>Escrito por Marcos</footer>
+</body>
+</html>

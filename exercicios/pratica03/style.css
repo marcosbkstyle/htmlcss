@@ -1,0 +1,38 @@
+@charset "UTF-8"
+
+
+    *{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+@font-face{
+    font-family:'love' ;
+    src: url('Kastella.otf') format('opentype');
+    font-size: normal;
+    font-style: normal;}
+@font-face{
+    font-family:'apple' ;
+    src: url('appel.ttf')format('opentype');
+    font-size: normal;
+    font-style: normal;
+}
+body{
+    
+    background-image: linear-gradient(to right, #003840, #005A5B, #007369);
+}
+main{
+    background-color: white;
+    font-family: 'love';
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px black;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-family: 'apple';
+}
+img{
+    border-radius: 10px;
+    
+}
