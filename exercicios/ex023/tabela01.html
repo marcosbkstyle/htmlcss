@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+        tr.linha{
+            background-color: gray;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        Hierarquia de tabela
+        Table=tabela
+        Table row=linha de tabela
+        table header=cabeçalho de tabela
+        table data=dado de tabela
+    -->
+    <table> 
+         <tr>
+          <td>Linha de Produção</td>
+          <TD>Produtora</TD>
+          <td>Modelo</td>
+          <td>Armazenamento</td>
+         </tr>
+         <tr class="linha">
+            <td>Lote 9600</td>
+            <td>Samsung</td>
+            <td>Samsung S10</td>
+            <td>128gb</td>
+         </tr>
+         <tr>
+            <td>Lote 9700</td>
+            <td>Iphone</td>
+            <td>Iphone 10 a 14</td>
+            <td>256gb</td>
+         </tr>
+         <tr>
+            <td>Lote 9800</td>
+            <td>Xiaomi</td>
+            <td>Redmi Note 10</td>
+            <td>128gb</td>
+         </tr>
+        </tr>
+        <tr>
+           <td>Lote 9900</td>
+           <td>Nokia</td>
+           <td>Nokia XR21</td>
+        </tr>
+        <tr>
+           <td>Lote 1000</td>
+           <td>Motorola</td>
+           <td>Moto G7 plus</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
